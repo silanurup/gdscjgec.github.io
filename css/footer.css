@@ -1,9 +1,12 @@
 /* ********************************* Footer Section ********************************* */
-
+body{
+  min-height: 100vh;
+}
 footer {
   margin: 6rem 0 0;
   padding: 4rem 4rem 2rem;
   position: relative;
+  top: 100%;
   background: var(--darkblack);
   display: flex;
   justify-content: space-between;
